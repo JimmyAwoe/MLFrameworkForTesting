@@ -25,3 +25,15 @@ Spotify is a Swedish online music streaming platform. It provides 12 features fo
 | **mode（模式）** | Whether the song belongs to a major key or a minor key |
 
 We will utilize these 12 features and the popularity of the music pieces provided by Spotify's music library, making a total of 13 attributes. Taking the six major music categories as the classification basis, we will build a multi-class classification model to help us automatically classify the music pieces that will enter the music library in the future. [The Kaggle competition website](https://www.kaggle.com/datasets/joebeachcapital/30000-spotify-songs) provides data of 28,356 songs and the already labeled style tags.
+
+You can use below code in bash to run the training code.
+
+```bash
+bash LogReg_Train.sh
+```
+
+Below code can plot the result.
+
+```bash
+bash LogReg_Plot.sh
+```
